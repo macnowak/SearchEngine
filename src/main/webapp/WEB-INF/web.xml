@@ -6,9 +6,9 @@
 	<display-name>Spring MVC Application</display-name>
 
     <!-- Spring -->
-    <!--<listener>-->
-        <!--<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>-->
-    <!--</listener>-->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
 
     <servlet>
         <servlet-name>restApi</servlet-name>

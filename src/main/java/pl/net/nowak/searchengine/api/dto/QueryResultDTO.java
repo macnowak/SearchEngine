@@ -1,19 +1,17 @@
 package pl.net.nowak.searchengine.api.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  */
 @NoArgsConstructor
 @Getter
 @Setter
-public class SearchQueryDTO {
-
-    private long id;
-    private String params;
-    private String filter;
-
+@AllArgsConstructor
+public class QueryResultDTO {
+    private String value;
 }
