@@ -1,9 +1,6 @@
 package pl.net.nowak.searchengine.api.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 /**
  * Author: Maciek
@@ -12,6 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @AllArgsConstructor
+@ToString
 public class QueryResultDTO {
     private String value;
 }
