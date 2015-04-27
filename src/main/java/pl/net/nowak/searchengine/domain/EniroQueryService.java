@@ -34,7 +34,7 @@ public class EniroQueryService implements QueryService{
     public List<QueryResultDTO> search(String query) {
         log.info("Sending query to : " + createApiURL("aaa"));
 
-        ArrayList<QueryResultDTO> queryResultDTOs = new ArrayList<QueryResultDTO>();
+        ArrayList<QueryResultDTO> queryResultDTOs = new ArrayList<>();
         queryResultDTOs.add(new QueryResultDTO("a"));
         queryResultDTOs.add(new QueryResultDTO("b"));
         queryResultDTOs.add(new QueryResultDTO("c"));

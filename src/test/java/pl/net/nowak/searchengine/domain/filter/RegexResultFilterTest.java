@@ -29,10 +29,10 @@ public class RegexResultFilterTest {
     @Test
     public void shouldFilterCollectionAgainstRegex() {
         //given
-        List<QueryResultDTO> results = results("Pizza Hut", "Dominium", "Pizzaportal");
+        List<QueryResultDTO> given = results("Pizza Hut", "Dominium", "Pizzaportal");
         String regex = "^P.*$";
         //when
-        List<QueryResultDTO> filter = regexResultFilter.filter(results, regex);
+        List<QueryResultDTO> filter = regexResultFilter.filter(given, regex);
         //then
         Assertions.assertThat(filter).hasSize(2);
 
@@ -41,10 +41,10 @@ public class RegexResultFilterTest {
     @Test
     public void shouldReturnEmptyCollectionOnEmptyCollection() {
         //given
-        List<QueryResultDTO> results = results();
+        List<QueryResultDTO> given = results();
         String regex = "^P.*$";
         //when
-        List<QueryResultDTO> filter = regexResultFilter.filter(results, regex);
+        List<QueryResultDTO> filter = regexResultFilter.filter(given, regex);
         //then
         Assertions.assertThat(filter).hasSize(0);
 
@@ -53,21 +53,21 @@ public class RegexResultFilterTest {
     @Test
     public void shouldReturnFullCollectionWhenNoFilter() {
         //given
-        List<QueryResultDTO> results = results("Pizza Hut", "Dominium", "Pizzaportal");
+        List<QueryResultDTO> given = results("Pizza Hut", "Dominium", "Pizzaportal");
         String regex = null;
         //when
-        List<QueryResultDTO> filter = regexResultFilter.filter(results, regex);
+        List<QueryResultDTO> filter = regexResultFilter.filter(given, regex);
         //then
-        Assertions.assertThat(filter).hasSize(results.size()).isEqualTo(results);
+        Assertions.assertThat(filter).hasSize(given.size()).isEqualTo(given);
     }
 
     @Test
     public void shouldReturnEmptyCollectionWhenNullCollection() {
         //given
-        List<QueryResultDTO> results = null;
+        List<QueryResultDTO> given = null;
         String regex = "^P.*$";
         //when
-        List<QueryResultDTO> filter = regexResultFilter.filter(results, regex);
+        List<QueryResultDTO> filter = regexResultFilter.filter(given, regex);
         //then
         Assertions.assertThat(filter).isNotNull().isEmpty();
     }
