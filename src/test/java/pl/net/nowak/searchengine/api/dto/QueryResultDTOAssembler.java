@@ -11,7 +11,7 @@ public class QueryResultDTOAssembler {
     public static List<QueryResultDTO> results(String... result) {
         ArrayList<QueryResultDTO> list = new ArrayList<>();
         for (String s : result) {
-            list.add(new QueryResultDTO(s));
+            list.add(new QueryResultDTO(s,s,""));
         }
 
         return list;

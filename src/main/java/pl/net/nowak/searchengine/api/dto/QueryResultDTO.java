@@ -11,5 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class QueryResultDTO {
-    private String value;
+    private String companyName;
+    private String companyText;
+    private String fullJsonInfo;
 }

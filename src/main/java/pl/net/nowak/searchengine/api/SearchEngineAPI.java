@@ -1,5 +1,6 @@
 package pl.net.nowak.searchengine.api;
 
+import pl.net.nowak.core.ApiException;
 import pl.net.nowak.core.annotations.API;
 import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
 import pl.net.nowak.searchengine.api.dto.SearchQueryDTO;
@@ -21,12 +22,19 @@ public class SearchEngineAPI {
     @Inject SearchQueryRepository searchQueryRepository;
     @Inject ResultFilter resultFilter;
 
-    public List<QueryResultDTO> performQuery(SearchQueryDTO dto) {
+    public List<QueryResultDTO> performQuery(SearchQueryDTO dto) throws ApiException {
         //store query
         searchQueryRepository.save(SearchQuery.valueOf(dto.getParams(),dto.getFilter()));
 
         //query
-        return resultFilter.filter(queryService.search(dto.getParams()),dto.getFilter());
+
+        String[] searchWords = dto.getParams().split(",");
+
+        try {
+            return resultFilter.filter(queryService.search(searchWords),dto.getFilter());
+        } catch (InterruptedException e) {
+            throw new ApiException(ApiException.API_CALL_EXCEPTION,e.getMessage());
+        }
     }
 
 }

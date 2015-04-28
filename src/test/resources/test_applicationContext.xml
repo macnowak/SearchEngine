@@ -3,7 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
        xmlns:context="http://www.springframework.org/schema/context"
-       xmlns:task="http://www.springframework.org/schema/task"
        xmlns:tx="http://www.springframework.org/schema/tx"
        xsi:schemaLocation="http://www.springframework.org/schema/mvc
                            http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
@@ -12,9 +11,7 @@
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context-3.1.xsd
                            http://www.springframework.org/schema/tx
-                           http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
-                           http://www.springframework.org/schema/task
-                           http://www.springframework.org/schema/task/spring-task-3.2.xsd"
+                           http://www.springframework.org/schema/tx/spring-tx-3.2.xsd"
         >
 
     <bean name="propertyPlaceholderConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
@@ -34,11 +31,6 @@
     <context:component-scan base-package="pl.net.nowak">
 
     </context:component-scan>
-
-    <task:executor id="myExecutor" pool-size="5"/>
-
-    <import resource="applicationContext_datasource.xml" />
-
-
+    <import resource="test_applicationContext_datasource.xml" />
 
 </beans>

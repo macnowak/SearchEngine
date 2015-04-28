@@ -29,7 +29,7 @@ public class RegexResultFilter implements ResultFilter {
             @Override
             public boolean apply(QueryResultDTO str) {
                 log.info(str.toString());
-                return str.getValue().matches(regex);
+                return str.getCompanyName().matches(regex);
             }
         };
 

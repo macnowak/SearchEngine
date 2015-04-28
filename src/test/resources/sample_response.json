@@ -1,0 +1,959 @@
+{    "itemsPerPage": 25,
+  "query": "http://api.eniro.com/cs/search/basic?country=se&search_word=pizza&version=1.1.3",
+  "startIndex": 1,
+  "title": "Gula sidorna API",
+  "totalCount": 3128,
+  "totalHits": 3128,
+  "adverts": [
+    {
+      "address": {
+        "postArea": "STOCKHOLM",
+        "postBox": null,
+        "postCode": "113 22",
+        "streetName": "Odeng. 79 -81"
+      },
+      "companyInfo": {
+        "companyName": "Primo Ciao Ciao",
+        "companyText": "P\u00e5 Primo Ciao Ciao Odengatan erbjuder vi en genuin italiensk a la carte meny s\u00e5 v\u00e4l som vedeldade...",
+        "orgNumber": "5565855854"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/512188/pizza",
+      "eniroId": "14957465",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/hiOpQG8hntwagoGiccUkjRK85Vs_YvdgpCRmJfV3hxkB4-lyI_hQwps9QoPU29faRqYOKIlFUHR02Cb7QLIQmqWnW_7tHKYtuMUVA6gbAEU-2Br155LwS_s2-7wq6ujwQ-kQpk95TA0=",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/primo-ciao-ciao:14957465?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.342158499999996,
+            "longitude": 18.048677300000001
+          },
+          {
+            "latitude": 59.342158499999996,
+            "longitude": 18.048677300000001,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 32 01 22",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "G\u00d6TEBORG",
+        "postBox": null,
+        "postCode": "411 25",
+        "streetName": "Viktoriag. 26"
+      },
+      "companyInfo": {
+        "companyName": "Cyrano - Vasa",
+        "companyText": null,
+        "orgNumber": "9696532366"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/650516/pizza",
+      "eniroId": "14976381",
+      "facebook": "http://api.eniro.com/proxy/facebook/uANwPf5aVK0LtaJV5UvWtwh_l-Zl6Ad_nTMhD6ulaKAuGcXnA5WBWsQ5sWXjI5FezMpFEFJTuX4_-S8R30eXOjzkvmS48-54p1EtHo_yErU=",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2gd0CINBCf9EnSC8HHvuaywYATrY2A3a8L6KpYEPnKtltD2vMV_VUC5bf5WzffMGs=",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/cyrano-vasa:14976381?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 57.6968326,
+            "longitude": 11.9664304
+          },
+          {
+            "latitude": 57.6968326,
+            "longitude": 11.9664304,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "031 - 13 29 00",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "STOCKHOLM",
+        "postBox": null,
+        "postCode": "115 26",
+        "streetName": "Gyllenstiernsg. 3"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria Gyllenstiernan",
+        "companyText": null,
+        "orgNumber": "590628####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/433590/pizza",
+      "eniroId": "14386851",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2kXBEKZ4_AaB8r_sQicDdF99iNLfHb0q_R_yYIHYIlxoArsdEXPepp3P9vOv4sNzYb5iHHK_Ne4tQlXJgbgRcO",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-gyllenstiernan:14386851?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.336397699999999,
+            "longitude": 18.0994408
+          },
+          {
+            "latitude": 59.336397699999999,
+            "longitude": 18.0994408,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 662 63 65",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "LINK\u00d6PING",
+        "postBox": null,
+        "postCode": "582 36",
+        "streetName": "\u00c5bylundstorget 2"
+      },
+      "companyInfo": {
+        "companyName": "Adriatic Pizzeria",
+        "companyText": null,
+        "orgNumber": "9165693566"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/446060/pizza",
+      "eniroId": "14936339",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R0IloFyBIweDZUzwnZHd53QAinI8ahvTquSjigIWiPWYbUJT-pMiUNvJ_SRGgalq6lJ3qELXeRTKITJlxSNSaq_whFfU1-3AG5",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2kXBEKZ4_AaBD1qzB_fxYkpYUBrl8UTbNVDxdolQhsrx7qHCTQORlGF-y0_X_etmlDANITMP015Q==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/adriatic-pizzeria:14936339?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 58.416220199999998,
+            "longitude": 15.5996448
+          },
+          {
+            "latitude": 58.416220199999998,
+            "longitude": 15.5996448,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "013 - 12 27 88",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "H\u00d6LLVIKEN",
+        "postBox": null,
+        "postCode": "236 32",
+        "streetName": "Kungstorpsv. 10 B"
+      },
+      "companyInfo": {
+        "companyName": "V.E.S.P.A",
+        "companyText": null,
+        "orgNumber": "5568964257"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1785680/pizza",
+      "eniroId": "69593453",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R03SAcrG78IMB2CLo8bxtH25o8xjw0XeaffCTwYUvWmQ4R2OMAtIoXD1GNkA56vTq07rAaIuulgfI1FX9x4p2OMA==",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK0ypt5OFKvZPBBHHEB4MAvxs-i5LArVlYOTlI_01IEZWC9w-y9_G0sH0fLmz6t64MUu-EB3pVykEw==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/vespa:69593453?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 55.426621400000002,
+            "longitude": 12.9658335
+          },
+          {
+            "latitude": 55.426621400000002,
+            "longitude": 12.9658335,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "040 - 97 99 97",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "MALM\u00d6",
+        "postBox": null,
+        "postCode": "211 16",
+        "streetName": "Sundspromenaden 9"
+      },
+      "companyInfo": {
+        "companyName": "V.E.S.P.A",
+        "companyText": null,
+        "orgNumber": "5567905681"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1284274/pizza",
+      "eniroId": "14563655",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R03SAcrG78IMB2CLo8bxtH25o8xjw0XeafK5P7_cjCHxDeYOgT58NiZn_hEaofz5-ExtG1weVpHEBMqspGiNZgTw==",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK339RI4BqJPLpz8A7hN9eDHIz1Vc0WxmQAhXfYcN8-C3mSVodwv8HHfidMJBEef5pyZg9Q381rsBQ==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/vespa:14563655?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 55.610773899999998,
+            "longitude": 12.9733024
+          },
+          {
+            "latitude": 55.610773899999998,
+            "longitude": 12.9733024,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "040 - 12 90 44",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "UDDEVALLA",
+        "postBox": null,
+        "postCode": "451 31",
+        "streetName": "Norrtullsg. 3"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria & Ristorante Napoli",
+        "companyText": null,
+        "orgNumber": "5561967497"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/45798/pizza",
+      "eniroId": "7794461",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R080UZudTc244r8LUjGgHmjuVgn8D9P9dDuK6TFyeXXRBr0BzPuCeHvkAnwXim4BATYt9p7kw_Dycc5rHS168y3xKD7JjaanDxNb68cJOSeXI=",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2XvpIDjptAWyBssQ-HMdJ-1P2_0jAbH4L_BvL_SU0rjrWkkuNY4OU2nDlIdFizGt3K_ROZSzJR7A==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-ristorante-napoli:7794461?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 58.352099299999999,
+            "longitude": 11.933436499999999
+          },
+          {
+            "latitude": 58.352099299999999,
+            "longitude": 11.933436499999999,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0522 - 388 38",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "MALM\u00d6",
+        "postBox": null,
+        "postCode": "211 40",
+        "streetName": "Kanalg. 3"
+      },
+      "companyInfo": {
+        "companyName": "V.E.S.P.A",
+        "companyText": null,
+        "orgNumber": "5566728837"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1836284/pizza",
+      "eniroId": "92888961",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R03SAcrG78IMB2CLo8bxtH25o8xjw0XeafMu1k5Rpvlw2MZ3plBWJ1VZGS3i9bFBftcrO-aFhmruPn9jJ7DlnS0w==",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK3CAaaPRN_MZbsDbMcGziXcH74gU2c1FTR3g9KfA76xjA8vwtIz72eYD6CQVSC95o90QQgV7idx9Q==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/vespa:92888961?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 55.601913600000003,
+            "longitude": 13.0017534
+          },
+          {
+            "latitude": 55.601913600000003,
+            "longitude": 13.0017534,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "040 - 12 71 47",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "H\u00c4GERSTEN",
+        "postBox": null,
+        "postCode": null,
+        "streetName": " "
+      },
+      "companyInfo": {
+        "companyName": "Pizza Express",
+        "companyText": null,
+        "orgNumber": "9696748301"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/352845/pizza",
+      "eniroId": "14915251",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R080UZudTc247lzkzzXeELzTyIielG9QBWmUJ9zOEOqaisHMdTjmM4CGWJmurjX3WrXgVNEfxFv_ck3RrZVmFr7xYeBE4GZRPVhIkXB2OwenwKmbTnqN_V5g==",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK0iybpXrC0PcV_3ulnTkbQ2EUPy5aEKPPnwWRPY8f2X7qssSpvnjQ_qTH3CRPGsHi5RXFVow5NY2A==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizza-express:14915251?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": null,
+            "longitude": null
+          },
+          {
+            "latitude": null,
+            "longitude": null,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 19 54 54",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "\u00c5RE",
+        "postBox": null,
+        "postCode": "830 13",
+        "streetName": "Rastplats \u00c5re/bj\u00f6rn\u00e4nge "
+      },
+      "companyInfo": {
+        "companyName": "Restaurang Viking Bar & Pizzeria",
+        "companyText": null,
+        "orgNumber": "520613####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/35362/pizza",
+      "eniroId": "14842036",
+      "facebook": null,
+      "homepage": null,
+      "infoPageLink": "http://gulasidorna.eniro.se/f/restaurang-viking-bar-pizzeria:14842036?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": null,
+            "longitude": null
+          },
+          {
+            "latitude": null,
+            "longitude": null,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0647 - 325 00",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "REFTELE",
+        "postBox": null,
+        "postCode": "330 21",
+        "streetName": "Segerstadsv. 5"
+      },
+      "companyInfo": {
+        "companyName": "Restaurang \u00d6lmehus",
+        "companyText": null,
+        "orgNumber": "5566521851"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/603056/pizza",
+      "eniroId": "5190060",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R0LIYXwEvjYTPk4vLH3KpjwrIN-lkEUSifDxvib7ghiEmGQb9-Fr7lx06F6LBdHY5VBtk5A-bosr4Ji47FJoYKiOl2qnJofCBin0R0Da4T65SXUD3TgVNfVA==",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK37NDx25T0IvJU7SZvY6KSWp1uQ6y7iCNhajI1CWCM35nTz_vFJKkjgp4fqGFrcWc8=",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/restaurang-\u00f6lmehus:5190060?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 57.173535999999999,
+            "longitude": 13.594811099999999
+          },
+          {
+            "latitude": 57.173535999999999,
+            "longitude": 13.594811099999999,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0371 - 201 80",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "EKER\u00d6",
+        "postBox": null,
+        "postCode": "178 37",
+        "streetName": "Tunnlandsv. 1"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria La Casagialo",
+        "companyText": null,
+        "orgNumber": "660307####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1181623/pizza",
+      "eniroId": "10091690",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK1sOzcKTSdBl9lKBEv_Mivx-PsVoR-bKW3X5UenS60hC-bkTd880vN8kPIT8txDJAe9uwL_-CNuYQ==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-la-casagialo:10091690?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.279705700000001,
+            "longitude": 17.789416500000002
+          },
+          {
+            "latitude": 59.279705700000001,
+            "longitude": 17.789416500000002,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 560 310 14",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "HELSINGBORG",
+        "postBox": null,
+        "postCode": "252 84",
+        "streetName": "Serpentinv. 3"
+      },
+      "companyInfo": {
+        "companyName": "La Pizza Lar\u00f6d",
+        "companyText": null,
+        "orgNumber": "640806####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1748552/pizza",
+      "eniroId": "49498551",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK1vLBTeLn7-33GAAFZESidgFquf0pNSSO8tjX_tr51Hw0Cj2U7QbaZtSrI0AfXmbyQ=",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/la-pizza-lar\u00f6d:49498551?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 56.091141499999999,
+            "longitude": 12.6548088
+          },
+          {
+            "latitude": 56.091141499999999,
+            "longitude": 12.6548088,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "042 - 944 14",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "STOCKHOLM",
+        "postBox": null,
+        "postCode": "118 52",
+        "streetName": "Bj\u00f6rng\u00e5rdsg. 13"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria S\u00f6der",
+        "companyText": null,
+        "orgNumber": "9697674225"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1844794/pizza",
+      "eniroId": "98801471",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2kXBEKZ4_AaH_-Xy9_aV-UsYPnJOZGpH4uYW0KlCkKbnCquJYTgL5PVxWoJQbrUGvvpQhDH5vz4g==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-s\u00f6der:98801471?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.3162679,
+            "longitude": 18.065839100000002
+          },
+          {
+            "latitude": 59.3162679,
+            "longitude": 18.065839100000002,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 641 15 05",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "LINK\u00d6PING",
+        "postBox": null,
+        "postCode": "582 42",
+        "streetName": "Nya Tanneforsv. 67"
+      },
+      "companyInfo": {
+        "companyName": "Pizzabutik ROMANA - Kebab & Grill Bar",
+        "companyText": null,
+        "orgNumber": "670418####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/609659/pizza",
+      "eniroId": "14590579",
+      "facebook": null,
+      "homepage": null,
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzabutik-romana-kebab-grill-bar:14590579?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 58.403673599999998,
+            "longitude": 15.646656999999999
+          },
+          {
+            "latitude": 58.403673599999998,
+            "longitude": 15.646656999999999,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "013 - 12 84 40",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "STOCKHOLM",
+        "postBox": null,
+        "postCode": "114 24",
+        "streetName": "Karlav. 8"
+      },
+      "companyInfo": {
+        "companyName": "Ciao Ciao Due",
+        "companyText": null,
+        "orgNumber": "5566456363"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/24850/pizza",
+      "eniroId": "14832880",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R0IAxG0ZdXzTWRZOUdSxY4uDhAblqHI4BijKT-w2lKq5qF01l59TEQPjx20qJFtR9PxPwQkc-tuY8PN7dvBW9cQ-qvySVIDPC7",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK10eW_Qz_qFLwsrowvKo9_HCGxU8pgr0-vix9725phYFvV4IyA1PqF7gmsYdUokIlqfjLXfICpDVA==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/ciao-ciao-due:14832880?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.344271999999997,
+            "longitude": 18.064763200000002
+          },
+          {
+            "latitude": 59.344271999999997,
+            "longitude": 18.064763200000002,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 20 00 61",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "SOLNA",
+        "postBox": null,
+        "postCode": "169 50",
+        "streetName": "R\u00e5sundav. 133 A"
+      },
+      "companyInfo": {
+        "companyName": "H\u00e5kans Restaurang",
+        "companyText": null,
+        "orgNumber": "9697521368"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1491606/pizza",
+      "eniroId": "17580830",
+      "facebook": null,
+      "homepage": null,
+      "infoPageLink": "http://gulasidorna.eniro.se/f/h\u00e5kans-restaurang:17580830?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.366163100000001,
+            "longitude": 17.989113400000001
+          },
+          {
+            "latitude": 59.366163100000001,
+            "longitude": 17.989113400000001,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "08 - 27 69 35",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "KATRINEHOLM",
+        "postBox": null,
+        "postCode": "641 34",
+        "streetName": "Sveav. 40"
+      },
+      "companyInfo": {
+        "companyName": "Kings Pizzeria",
+        "companyText": null,
+        "orgNumber": "900103####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1888798/pizza",
+      "eniroId": "107162224",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R0KZq4IMdMUAbArnYuViG4yaxIxGWhDvmmltskxVJ4dS_ME3I8ZD9WexIwYg-RpoZqtplfSIdf7eSdugLTyKH8AE9nPqXiFokJ",
+      "homepage": null,
+      "infoPageLink": "http://gulasidorna.eniro.se/f/kings-pizzeria:107162224?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 58.988673400000003,
+            "longitude": 16.225990100000001
+          },
+          {
+            "latitude": 58.988673400000003,
+            "longitude": 16.225990100000001,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0150 - 333 43",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "G\u00d6TEBORG",
+        "postBox": null,
+        "postCode": "412 53",
+        "streetName": "Berzeliig. 19"
+      },
+      "companyInfo": {
+        "companyName": "Vivaldi Restaurang & Bar",
+        "companyText": null,
+        "orgNumber": "9168523646"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/482014/pizza",
+      "eniroId": "14941001",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2MgIVQqmYXwsZEU5N6iW8nFDUaI3WzOc69KoWZGsx1XoRjxuWHaADyLjR8nWxqNHD3ORuCmgv-Cw==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/vivaldi-restaurang-bar:14941001?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 57.699076499999997,
+            "longitude": 11.9839869
+          },
+          {
+            "latitude": 57.699076499999997,
+            "longitude": 11.9839869,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "031 - 20 17 71",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "J\u00d6NK\u00d6PING",
+        "postBox": null,
+        "postCode": "553 39",
+        "streetName": "Norrahammarsv. 29"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria Milano",
+        "companyText": null,
+        "orgNumber": "760402####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/1862136/pizza",
+      "eniroId": "102972381",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R0hcqIwFQumwAz2DeR7LElhKtA1z68RlMTVTnnajomk12kTqQ92RMSznHXEVIvqUeEVmNAK_pyH-E=",
+      "homepage": null,
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-milano:102972381?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 57.758262600000002,
+            "longitude": 14.152749099999999
+          },
+          {
+            "latitude": 57.758262600000002,
+            "longitude": 14.152749099999999,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "036 - 71 48 28",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "ARVIKA",
+        "postBox": null,
+        "postCode": "671 30",
+        "streetName": "V. Kyrkog. 53"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria Amigo",
+        "companyText": null,
+        "orgNumber": "5567956221"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/291033/pizza",
+      "eniroId": "14903939",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK0iybpXrC0PcRnUTOhsi3ES2-7rir47VOrWXvqXiUKeMdSdwcTKSEAaSEydEzbE_-8=",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-amigo:14903939?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 59.657227599999999,
+            "longitude": 12.583343899999999
+          },
+          {
+            "latitude": 59.657227599999999,
+            "longitude": 12.583343899999999,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0570 - 158 88",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "SK\u00d6VDE",
+        "postBox": null,
+        "postCode": "541 31",
+        "streetName": "Vasag. 29"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria & Restaurang Maxim",
+        "companyText": null,
+        "orgNumber": "9164532716"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/423104/pizza",
+      "eniroId": "14937460",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK12P7swoIUjO9LUX4WSSDuP5NUJWvjpad_pdMnYAphZ9DZjNoUgC5o1F2WjTbx17xB-dMbhfpGB6A==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-restaurang-maxim:14937460?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 58.386248899999998,
+            "longitude": 13.836837299999999
+          },
+          {
+            "latitude": 58.386248899999998,
+            "longitude": 13.836837299999999,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0500 - 48 26 30",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "VISLANDA",
+        "postBox": null,
+        "postCode": "342 50",
+        "streetName": "Storg. 8"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria Vislanda",
+        "companyText": null,
+        "orgNumber": "550101####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/440392/pizza",
+      "eniroId": "13796120",
+      "facebook": null,
+      "homepage": null,
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-vislanda:13796120?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 56.786878000000002,
+            "longitude": 14.4520368
+          },
+          {
+            "latitude": 56.786878000000002,
+            "longitude": 14.4520368,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "0472 - 344 44",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "G\u00d6TEBORG",
+        "postBox": null,
+        "postCode": "412 62",
+        "streetName": "Fridkullag. 20 A"
+      },
+      "companyInfo": {
+        "companyName": "Dorado Pizza Kebab & Sallader",
+        "companyText": null,
+        "orgNumber": "9697398478"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/824181/pizza",
+      "eniroId": "13840020",
+      "facebook": "http://api.eniro.com/proxy/facebook/hiOpQG8hntxHmgUm49bLx8XEOckxV8R0dYKijnd-pE5a2Wxy0ZfOgYLdDFP9nxRd7EKq5IPcDA_2YKJ5yPIw__w2VrHLkQch",
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK2EPnGc3CeDfACMlXyNAk5RiaEtTgWvuHGMyHrubCAaZVX5-HujPbs4eY1jBahkzFwoDGqjOgm3bQ==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/dorado-pizza-kebab-sallader:13840020?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 57.680723299999997,
+            "longitude": 11.9884726
+          },
+          {
+            "latitude": 57.680723299999997,
+            "longitude": 11.9884726,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "031 - 16 80 42",
+          "type": "std"
+        }
+      ]
+    },
+    {
+      "address": {
+        "postArea": "HISINGS BACKA",
+        "postBox": null,
+        "postCode": "422 50",
+        "streetName": "Lillhagsparken 17"
+      },
+      "companyInfo": {
+        "companyName": "Pizzeria Casablanca",
+        "companyText": null,
+        "orgNumber": "650528####"
+      },
+      "companyReviews": "http://www.rejta.se/omdome/384546/pizza",
+      "eniroId": "3912780",
+      "facebook": null,
+      "homepage": "http://api.eniro.com/proxy/homepage/uANwPf5aVK29E-DgSJCR7Z3Rv-At_iykBEIil_VYpZ3d_Iskwb_tSWnSzXzW2uEvJcGANPjatGFRjP9xIuO6Dg==",
+      "infoPageLink": "http://gulasidorna.eniro.se/f/pizzeria-casablanca:3912780?search_word=pizza",
+      "location": {
+        "coordinates": [
+          {
+            "latitude": 57.761175999999999,
+            "longitude": 11.9507522
+          },
+          {
+            "latitude": 57.761175999999999,
+            "longitude": 11.9507522,
+            "use": "route"
+          }
+        ]
+      },
+      "phoneNumbers": [
+        {
+          "label": null,
+          "phoneNumber": "031 - 55 16 16",
+          "type": "std"
+        }
+      ]
+    }
+  ]
+}
