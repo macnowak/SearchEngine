@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.springframework.core.task.SimpleAsyncTaskExecutor;
 import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
+import pl.net.nowak.searchengine.domain.eniro.EniroURLFactory;
 
 import java.util.List;
 

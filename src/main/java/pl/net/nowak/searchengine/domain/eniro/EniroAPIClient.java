@@ -1,4 +1,4 @@
-package pl.net.nowak.searchengine.domain;
+package pl.net.nowak.searchengine.domain.eniro;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;

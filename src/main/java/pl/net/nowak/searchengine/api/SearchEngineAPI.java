@@ -6,7 +6,7 @@ import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
 import pl.net.nowak.searchengine.api.dto.SearchQueryDTO;
 import pl.net.nowak.searchengine.domain.QueryService;
 import pl.net.nowak.searchengine.domain.SearchQuery;
-import pl.net.nowak.searchengine.domain.SearchQueryRepository;
+import pl.net.nowak.searchengine.domain.repository.SearchQueryRepository;
 import pl.net.nowak.searchengine.domain.filter.ResultFilter;
 
 import javax.inject.Inject;

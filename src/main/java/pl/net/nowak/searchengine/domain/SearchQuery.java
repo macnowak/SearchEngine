@@ -20,11 +20,6 @@ public class SearchQuery extends BaseEntity {
     private String query;
     private String filter;
 
-
-    public static SearchQuery valueOf(String query, String filter) {
-        return new SearchQuery(query,filter);
-    }
-
     public SearchQuery(){}
 
     private SearchQuery(String query, String filter) {
@@ -32,6 +27,9 @@ public class SearchQuery extends BaseEntity {
         this.filter = Strings.nullToEmpty(filter);
     }
 
+    public static SearchQuery valueOf(String query, String filter) {
+        return new SearchQuery(query,filter);
+    }
 
 
 }

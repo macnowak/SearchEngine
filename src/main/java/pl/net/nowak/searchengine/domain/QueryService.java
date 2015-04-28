@@ -1,13 +1,13 @@
 package pl.net.nowak.searchengine.domain;
 
 import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.task.TaskExecutor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
+import pl.net.nowak.searchengine.domain.eniro.EniroAPIClient;
+import pl.net.nowak.searchengine.domain.eniro.EniroURLFactory;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
@@ -24,7 +24,8 @@ public class QueryService {
 
 
     @Inject TaskExecutor taskExecutor;
-    @Inject EniroURLFactory urlFactory;
+    @Inject
+    EniroURLFactory urlFactory;
     @Inject QueryResultFactory resultFactory;
 
     private Logger log = Logger.getLogger(this.getClass().getCanonicalName());
