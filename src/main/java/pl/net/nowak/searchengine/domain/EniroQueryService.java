@@ -2,7 +2,11 @@ package pl.net.nowak.searchengine.domain;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpEntity;
+import org.springframework.http.HttpMethod;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
+import org.springframework.web.client.RestTemplate;
 import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
 
 import java.util.ArrayList;
@@ -20,27 +24,33 @@ public class EniroQueryService implements QueryService{
     private Logger log = Logger.getLogger(this.getClass().getCanonicalName());
 
     @Value("${api.url}")
-    private String apiURL;
+    String apiURL;
     @Value("${api.profile}")
-    private String apiProfile;
+    String apiProfile;
     @Value("${api.key}")
-    private String apiKey;
+    String apiKey;
     @Value("${api.country}")
-    private String apiCountry;
+    String apiCountry;
     @Value("${api.version}")
-    private String apiVersion;
+    String apiVersion;
+
+
+
 
     @Override
     public List<QueryResultDTO> search(String query) {
-        log.info("Sending query to : " + createApiURL("aaa"));
+        String url = createApiURL(query);
+        log.info("Sending query to : " + url);
 
-        ArrayList<QueryResultDTO> queryResultDTOs = new ArrayList<>();
-        queryResultDTOs.add(new QueryResultDTO("a"));
-        queryResultDTOs.add(new QueryResultDTO("b"));
-        queryResultDTOs.add(new QueryResultDTO("c"));
-        queryResultDTOs.add(new QueryResultDTO("d"));
+        RestTemplate restTemplate = new RestTemplate();
+//        String forObject = restTemplate.getgetForObject(, String.class);
 
-        return queryResultDTOs;
+        ResponseEntity<String> result = restTemplate.exchange(url, HttpMethod.GET, new HttpEntity<>(""), String.class);
+
+        log.info(result.getStatusCode());
+        log.info(result.getBody());
+
+        return new ArrayList<>();
     }
 
 
@@ -52,6 +62,8 @@ public class EniroQueryService implements QueryService{
         builder.append("?country="+apiCountry);
         builder.append("?version="+apiVersion);
         builder.append("?search_word="+searchParam);
+
+        //http://api.eniro.com/cs/search/basic?profile=devmno?key=6238017201957511800?country=se?version=1.1.3?search_word=pizza
 
         return builder.toString();
     }
