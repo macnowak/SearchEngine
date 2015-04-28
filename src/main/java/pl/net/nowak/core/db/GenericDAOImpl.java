@@ -13,6 +13,9 @@ import java.io.Serializable;
 import java.lang.reflect.ParameterizedType;
 import java.util.List;
 
+/**
+ * Author: Maciek
+ */
 public abstract class GenericDAOImpl<T, ID extends Serializable> implements IGenericDAO<T, ID> ,Serializable {
 
     private static final long serialVersionUID = 1L;

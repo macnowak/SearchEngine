@@ -61,7 +61,7 @@
           class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>
 
 
-    <jpa:repositories base-package="pl.mno.eventplanner.app" />
+    <jpa:repositories base-package="pl.net.nowak" />
 
 
 

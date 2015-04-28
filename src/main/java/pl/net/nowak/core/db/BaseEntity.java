@@ -6,6 +6,7 @@ import lombok.Setter;
 import javax.persistence.*;
 
 /**
+ * Author: Maciek
  */
 @MappedSuperclass
 @Getter

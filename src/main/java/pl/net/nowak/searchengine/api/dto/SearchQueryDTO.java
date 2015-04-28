@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  */
 @NoArgsConstructor
 @Getter
@@ -15,5 +15,15 @@ public class SearchQueryDTO {
     private long id;
     private String params;
     private String filter;
+
+
+
+    public String[] getSearchWords() {
+        if(this.params != null ) {
+            return this.params.split(",");
+        }else {
+            return new String[]{};
+        }
+    }
 
 }

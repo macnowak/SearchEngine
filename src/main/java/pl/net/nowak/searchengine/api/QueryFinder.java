@@ -10,11 +10,15 @@ import pl.net.nowak.searchengine.domain.SearchQuery;
 import java.util.List;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  */
 @Finder
 public class QueryFinder extends BaseFinder {
 
+    /**
+     * Wyszukuje historyczne zapytania
+     * @return kolekcje dto z parametrami zapytania oraz filtrem
+     */
     public List<SearchQueryDTO> getAllQueries() {
         return getBaseCriteria(SearchQuery.class)
                 .setProjection(Projections.projectionList()

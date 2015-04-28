@@ -1,25 +1,23 @@
-
 <!DOCTYPE html>
 <html lang="en" ng-app="searchEngineApp">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
     <title>Eniro Test App</title>
 
-    <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/custom.css" rel="stylesheet">
 
     <script src="assets/js/angular/angular.js"></script>
     <script src="assets/js/angular/angular-resource-1.2.3.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/ui-bootstrap-tpls-0.11.2.js"></script>
     <script src="shared/app.js"></script>
     <script src="shared/search/searchService.js"></script>
     <script src="shared/search/searchCtrl.js"></script>
@@ -44,25 +42,42 @@
 
 <div class="container">
 
-    <div class="starter-template">
+    <br>
+    <div class="alert alert-danger" role="alert" ng-if="errorMsg">{{ errorMsg }}</div>
 
     <div class="row">
         <div class="col-xs-8">
-            <div class="row">
-                <div class="col-xs-6">
-                    <input class="form-control input-sm" ng-model="searchQuery.params" placeholder="Wpisz szukaną frazę" >
+                <div class="row">
+                    <form name="searchForm">
+                          <div class="col-xs-6">
+                            <input class="form-control input-sm" ng-model="searchQuery.params" placeholder="Wpisz szukaną frazę" ng-required >
+                          </div>
+                          <div class="col-xs-3">
+                                <input class="form-control input-sm" ng-model="searchQuery.filter" placeholder="Wpisz filtr">
+                          </div>
+                          <div class="col-xs-2">
+                              <button class="btn btn-sm btn-default pull-right" ng-click="search(searchQuery)" type="submit" >
+                                  <i class="glyphicon glyphicon-search"></i> &nbsp;Szukaj
+                              </button>
+                          </div>
+                    </form>
                 </div>
-                <div class="col-xs-3">
-                    <input class="form-control input-sm" ng-model="searchQuery.filter" placeholder="Wpisz filtr">
-                </div>
-                <div class="col-xs-2"> <button class="btn btn-sm btn-default" ng-click="search()" type="button" > <i class="glyphicon glyphicon-search"></i> &nbsp;Szukaj </button></div>
-            </div>
             <br>
             <div class="row">
-                <div class="col-xs-10">
+                <div class="col-xs-12">
                     <table class="table table-condensed table-striped ">
+                        <thead>
+                        <th>Nazwa firmy</th>
+                        <th>Opis</th>
+                        </thead>
                         <tr ng-repeat="result in results">
-                            <td>{{ result.value }}</td>
+                            <td>{{ result.companyName }}</td>
+                            <td>{{ result.companyText }}</td>
+                            <td>
+                                <button class="btn btn-xs btn-default pull-right" ng-click="openModal(result)" type="button" title="Zobacz JSON">
+                                    <i class="glyphicon glyphicon-pencil"></i>
+                                </button>
+                            </td>
                         </tr>
                     </table>
                 </div>
@@ -74,9 +89,18 @@
             <br/>
             <br/>
             <table class="table table-condensed table-striped">
-                <tr ng-repeat="query in historicalQueries">
+                <thead>
+                    <th>Fraza</th>
+                    <th>Filtr</th>
+                </thead>
+                <tr ng-repeat="query in historicalQueries|orderBy:id:false">
                     <td>{{ query.params }}</td>
                     <td>{{ query.filter }}</td>
+                    <td>
+                        <button class="btn btn-xs btn-default pull-right" ng-click="applySearch(query)" type="submit" >
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </td>
                 </tr>
             </table>
 
@@ -87,11 +111,17 @@
 
 
 </div><!-- /.container -->
-<footer class="footer">
-    <div class="container">
-        <br>
-        <p class="text-muted pull-right">Wykonał : Maciej Nowak</p>
-    </div>
-</footer>
+
+    <script type="text/ng-template" id="responseDetailsModal.html">
+        <div class="modal-header">
+            <h3 class="modal-title">{{ result.companyName }}</h3>
+        </div>
+        <div class="modal-body" style="word-wrap: break-word">
+            {{ result.fullJsonInfo }}
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-default" ng-click="close()">Zamknij</button>
+        </div>
+    </script>
 </body>
 </html>

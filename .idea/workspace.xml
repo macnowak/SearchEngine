@@ -1,38 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0348f96b-687e-4bde-9371-def7ef2322c5" name="Default" comment="" />
+    <list default="true" id="805fd430-08ae-47a8-9d03-675d46eb965a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/ApiException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroAPIClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/EniroAPIClientTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroURLFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/QueryResultFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/QueryResultFactoryTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/QueryServiceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/RestApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/sample_response.json" />
+      <change type="DELETED" beforePath="C:\Dev\Priv\repo\SearchEngine\SearchEngine.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dev\Priv\repo\SearchEngine\src\main\java\pl\net\nowak\searchengine\domain\EniroQueryService.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dev\Priv\repo\SearchEngine\src\test\java\pl\net\nowak\searchengine\api\QueryFinderTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Dev\Priv\repo\SearchEngine\src\test\java\pl\net\nowak\searchengine\domain\EniroQueryServiceTest.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Dev\Priv\repo\SearchEngine\src\main\java\pl\net\nowak\searchengine\domain\SearchQueryRepository.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/repository/SearchQueryRepository.java" />
+      <change type="MOVED" beforePath="C:\Dev\Priv\repo\SearchEngine\src\main\java\pl\net\nowak\searchengine\domain\SearchQueryRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/repository/SearchQueryRepositoryImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/API.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/API.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/AbstractDAO.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/AbstractDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/BaseEntity.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/BaseEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/BaseFinder.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/BaseFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/Finder.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/Finder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/GenericDAOImpl.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/GenericDAOImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/IGenericDAO.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/db/IGenericDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/QueryFinder.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/QueryFinder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/QueryResultDTO.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/QueryResultDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/api/dto/QueryResultDTOAssembler.java" afterPath="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/api/dto/QueryResultDTOAssembler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/QueryService.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/QueryService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilter.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/RestAPI.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/RestAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/SearchEngineAPI.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/SearchEngineAPI.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/SearchQuery.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/SearchQuery.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/SearchQueryDTO.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/SearchQueryDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/rest/SearchRestApi.java" afterPath="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/rest/SearchRestApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/shared/app.js" afterPath="$PROJECT_DIR$/src/main/webapp/shared/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext_datasource.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext_datasource.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/css/custom.css" afterPath="$PROJECT_DIR$/src/main/webapp/assets/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/index.html" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/shared/search/searchCtrl.js" afterPath="$PROJECT_DIR$/src/main/webapp/shared/search/searchCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SearchEngine.iws" />
     <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <file path="/Dummy.txt" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430162524077" ignored="false" />
-    <file path="/pom.xml" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430171774858" ignored="false" />
-    <file path="/applicationContext_datasource.xml" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430166873096" ignored="false" />
-    <file path="/SearchEngineAPI.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430170959063" ignored="false" />
-    <file path="/searchService.js" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430160837651" ignored="false" />
-    <file path="/searchCtrl.js" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430169832440" ignored="false" />
-    <file path="/index.html" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430169763309" ignored="false" />
-    <file path="/web.xml" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430163018831" ignored="false" />
-    <file path="/fragment.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430199517466" ignored="false" />
-    <file path="/SearchQueryRepository.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430167063165" ignored="false" />
-    <file path="/EniroQueryService.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430200659430" ignored="false" />
-    <file path="/applicationContext.xml" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430166963451" ignored="false" />
-    <file path="/application.properties" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430165542764" ignored="false" />
-    <file path="/SearchRestApi.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430168388313" ignored="false" />
-    <file path="/QueryResultDTO.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430171933714" ignored="false" />
-    <file path="/SearchQueryDTO.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430168932002" ignored="false" />
-    <file path="/SearchQuery.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430166619289" ignored="false" />
-    <file path="/SearchQueryRepositoryImpl.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430167131135" ignored="false" />
-    <file path="/QueryFinder.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430167496180" ignored="false" />
-    <file path="/ResponseDTO.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430168360657" ignored="false" />
-    <file path="/ResultFilter.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430170884534" ignored="false" />
-    <file path="/RegexFilter.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430173232835" ignored="false" />
-    <file path="/RegexResultFilterTest.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430173299247" ignored="false" />
-    <file path="/QueryResultDTOAssembler.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430171496907" ignored="false" />
-    <file path="/RegexResultFilter.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430173228162" ignored="false" />
-    <file path="/EniroQueryServiceTest.java" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430199688393" ignored="false" />
-    <file path="/log4j.properties" changelist="0348f96b-687e-4bde-9371-def7ef2322c5" time="1430200354468" ignored="false" />
+    <file path="/Dummy.txt" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430234976494" ignored="false" />
+    <file path="/index.html" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430240444416" ignored="false" />
+    <file path="/searchCtrl.js" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430240391118" ignored="false" />
+    <file path="/SearchRestApi.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237671730" ignored="false" />
+    <file path="/QueryService.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430236644523" ignored="false" />
+    <file path="/EniroAPIClient.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237007395" ignored="false" />
+    <file path="/EniroURLFactory.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237980178" ignored="false" />
+    <file path="/RegexResultFilter.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237068966" ignored="false" />
+    <file path="/SearchQueryRepository.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237100244" ignored="false" />
+    <file path="/SearchEngineAPI.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237263955" ignored="false" />
+    <file path="/RestAPI.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237648314" ignored="false" />
+    <file path="/QueryFinder.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430237830722" ignored="false" />
+    <file path="/QueryResultFactory.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430239131439" ignored="false" />
+    <file path="/QueryServiceTest.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430238241085" ignored="false" />
+    <file path="/IntegrationTest.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430238348667" ignored="false" />
+    <file path="/applicationContext_datasource.xml" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430238591950" ignored="false" />
+    <file path="/QueryResultDTO.java" changelist="805fd430-08ae-47a8-9d03-675d46eb965a" time="1430239235052" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,10 +127,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EniroQueryService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/EniroQueryService.java">
+      <file leaf-file-name="RestApi.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/core/RestApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="44" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.33574006">
+            <state line="10" column="13" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,69 +138,87 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EniroQueryServiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/EniroQueryServiceTest.java">
+      <file leaf-file-name="EniroAPIClient.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroAPIClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="27" selection-start="73" selection-end="92" vertical-scroll-proportion="0.0">
+            <state line="27" column="56" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/ResultFilter.java">
+      <file leaf-file-name="EniroURLFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroURLFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryResultFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/QueryResultFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="65" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryResultDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/QueryResultDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="31" selection-start="344" selection-end="356" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ui-bootstrap-tpls-0.11.2.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/ui-bootstrap-tpls-0.11.2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="28" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegexResultFilter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilter.java">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="57" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
+            <state line="76" column="57" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.384">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#878#1108#0" expanded="true" />
-                <element signature="e#891#907#0" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegexResultFilterTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilterTest.java">
+      <file leaf-file-name="searchCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/shared/search/searchCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="34" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="46" column="26" selection-start="1592" selection-end="1603" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueryResultDTOAssembler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/api/dto/QueryResultDTOAssembler.java">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/shared/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="39" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="9" column="42" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseDTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/core/ResponseDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -189,71 +241,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/shared/search/searchCtrl.js" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/ResultFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/repository/SearchQueryRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/SearchEngineAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexFResultilter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/api/dto/QueryResultDTOAssembler.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/RestAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/rest/SearchRestApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/core/RestApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/QueryFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroURLFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/QueryServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/QueryResultFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/IntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext_datasource.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/QueryResultFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/QueryResultDTO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilter.java" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/ResultFilter.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/db.properties" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/EniroQueryServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/EniroQueryService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/shared/app.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/shared/search/searchCtrl.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SearchEngine" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="SearchEngine" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1366" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -281,7 +290,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,11 +326,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="searchengine" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,44 +353,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="searchengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="searchengine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +396,141 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shared" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="search" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SearchEngine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,211 +553,29 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nowak" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SearchEngine" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nowak" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/api" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="dynamic.classpath" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pl.net.nowak.searchengine.api.dto" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace\priv\SearchEngine\src\main\java\pl\net\nowak\core\db" />
-      <recent name="D:\workspace\priv\SearchEngine\src\main\java\pl\net\nowak\core\annotations" />
-      <recent name="D:\workspace\priv\SearchEngine\src\main\java\pl\net\nowak\core\db\annotations" />
-      <recent name="D:\workspace\priv\SearchEngine\src\main\resources" />
-      <recent name="D:\workspace\priv\SearchEngine\src\main\webapp\WEB-INF" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Dev\Priv\repo\SearchEngine\src\main\resources" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="pl.net.nowak.searchengine.api" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="pl.net.nowak.searchengine.domain" />
-      <recent name="pl.net.nowak.searchengine.api.dto" />
-      <recent name="pl.net.nowak.searchengine.domain.filter" />
-      <recent name="pl.net.nowak.searchengine.api" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pl.net.nowak.searchengine.domain" />
-      <recent name="pl.net.nowak.core.annotations" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.EniroQueryServiceTest.shouldCallRestApi">
-    <configuration default="false" name="RegexResultFilterTest.shouldFilterCollectionAgainstRegex" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.net.nowak.searchengine.domain.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SearchEngine" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.net.nowak.searchengine.domain.filter" />
-      <option name="MAIN_CLASS_NAME" value="pl.net.nowak.searchengine.domain.filter.RegexResultFilterTest" />
-      <option name="METHOD_NAME" value="shouldFilterCollectionAgainstRegex" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegexResultFilterTest.shouldReturnEmptyCollectionOnEmptyCollection" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.net.nowak.searchengine.domain.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SearchEngine" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.net.nowak.searchengine.domain.filter" />
-      <option name="MAIN_CLASS_NAME" value="pl.net.nowak.searchengine.domain.filter.RegexResultFilterTest" />
-      <option name="METHOD_NAME" value="shouldReturnEmptyCollectionOnEmptyCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegexResultFilterTest.shouldReturnFullCollectionWhenNoFilter" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.net.nowak.searchengine.domain.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SearchEngine" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.net.nowak.searchengine.domain.filter" />
-      <option name="MAIN_CLASS_NAME" value="pl.net.nowak.searchengine.domain.filter.RegexResultFilterTest" />
-      <option name="METHOD_NAME" value="shouldReturnFullCollectionWhenNoFilter" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RegexResultFilterTest.shouldReturnEmptyCollectionWhenNullCollection" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="pl.net.nowak.searchengine.domain.filter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="SearchEngine" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="pl.net.nowak.searchengine.domain.filter" />
-      <option name="MAIN_CLASS_NAME" value="pl.net.nowak.searchengine.domain.filter.RegexResultFilterTest" />
-      <option name="METHOD_NAME" value="shouldReturnEmptyCollectionWhenNullCollection" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="EniroQueryServiceTest.shouldCallRestApi" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.QueryResultFactoryTest.shouldParsJson">
+    <configuration default="false" name="QueryResultFactoryTest.shouldParsJson" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="pl.net.nowak.searchengine.domain.*" />
@@ -668,27 +586,29 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="pl.net.nowak.searchengine.domain" />
-      <option name="MAIN_CLASS_NAME" value="pl.net.nowak.searchengine.domain.EniroQueryServiceTest" />
-      <option name="METHOD_NAME" value="shouldCallRestApi" />
+      <option name="MAIN_CLASS_NAME" value="pl.net.nowak.searchengine.domain.QueryResultFactoryTest" />
+      <option name="METHOD_NAME" value="shouldParsJson" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
       <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -702,45 +622,19 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <envs />
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
@@ -755,43 +649,6 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -813,7 +670,7 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
+        <value defaultName="moduleWithDependencies" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
@@ -822,92 +679,74 @@
       <listeners />
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldFilterCollectionAgainstRegex" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldReturnEmptyCollectionOnEmptyCollection" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldReturnFullCollectionWhenNoFilter" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldReturnEmptyCollectionWhenNullCollection" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EniroQueryServiceTest.shouldCallRestApi" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.QueryResultFactoryTest.shouldParsJson" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EniroQueryServiceTest.shouldCallRestApi" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldReturnEmptyCollectionWhenNullCollection" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldReturnFullCollectionWhenNoFilter" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldReturnEmptyCollectionOnEmptyCollection" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.RegexResultFilterTest.shouldFilterCollectionAgainstRegex" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.QueryResultFactoryTest.shouldParsJson" />
       </list>
     </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0348f96b-687e-4bde-9371-def7ef2322c5" name="Default" comment="" />
-      <created>1430149431716</created>
-      <updated>1430149431716</updated>
+      <changelist id="805fd430-08ae-47a8-9d03-675d46eb965a" name="Default" comment="" />
+      <created>1430234969596</created>
+      <updated>1430234969596</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <frame x="0" y="0" width="1366" height="738" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67111856" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55759597" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32933104" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.442404" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.67066896" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39899832" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -967,122 +806,123 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/SearchQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/rest/SearchRestApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="786" selection-end="786" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/QueryFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="66" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0">
+        <state line="15" column="13" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/SearchEngineAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="55" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0">
+        <state line="19" column="2" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/core/annotations/API.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="18" selection-start="705" selection-end="705" vertical-scroll-proportion="0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="11.48">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext_datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="48" selection-start="2996" selection-end="2996" vertical-scroll-proportion="-14.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/QueryResultFactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="61" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/core/RestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroAPIClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="27" selection-start="5423" selection-end="5423" vertical-scroll-proportion="0.0">
+        <state line="27" column="56" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/core/ResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/QueryResultFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="65" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/ui-bootstrap-tpls-0.11.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/api/dto/QueryResultDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="17" column="31" selection-start="344" selection-end="356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/shared/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="57" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#878#1108#0" expanded="true" />
-            <element signature="e#891#907#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/filter/ResultFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="73" selection-end="92" vertical-scroll-proportion="0.0">
+        <state line="9" column="42" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/api/dto/QueryResultDTOAssembler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/eniro/EniroURLFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/filter/RegexResultFilterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="34" selection-start="603" selection-end="603" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pl/net/nowak/searchengine/domain/EniroQueryServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="38" selection-start="689" selection-end="689" vertical-scroll-proportion="0.5198556">
+        <state line="12" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pl/net/nowak/searchengine/domain/EniroQueryService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/shared/search/searchCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="44" selection-start="1598" selection-end="1598" vertical-scroll-proportion="0.33574006">
+        <state line="46" column="26" selection-start="1592" selection-end="1603" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="57" selection-start="3295" selection-end="3295" vertical-scroll-proportion="0.384">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

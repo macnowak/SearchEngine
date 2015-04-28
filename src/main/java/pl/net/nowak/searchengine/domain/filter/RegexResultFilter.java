@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 
 /**
  * Author: Maciek
+ *
  */
 @Component
 public class RegexResultFilter implements ResultFilter {
@@ -28,8 +29,7 @@ public class RegexResultFilter implements ResultFilter {
         Predicate<QueryResultDTO> matchesWithRegex = new Predicate<QueryResultDTO>() {
             @Override
             public boolean apply(QueryResultDTO str) {
-                log.info(str.toString());
-                return str.getValue().matches(regex);
+                return str.getCompanyName().matches(regex);
             }
         };
 

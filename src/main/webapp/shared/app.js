@@ -7,7 +7,7 @@ angular.module('searchEngineServices', ['ngResource']);
 var searchEngineApp = angular.module('searchEngineApp', [
     'ngResource',
     'searchEngineControllers',
-    'searchEngineServices'
+    'searchEngineServices' ,'ui.bootstrap'
 ]);
 
 searchEngineApp.config(
