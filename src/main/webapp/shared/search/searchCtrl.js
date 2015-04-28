@@ -21,17 +21,23 @@ searchEngineControllers.controller('searchCtrl', ['$scope','$filter','$rootScope
         $scope.getHistoricalQueries();
 
         $scope.search = function() {
-            var service = new SearchService($scope.searchQuery);
-            service.$search({},function(successResponse) {
-                    console.log(successResponse);
-                    $scope.results = successResponse.data;
-                    $scope.getHistoricalQueries();
-                },
-            function(error) {
-                console.log(error);
 
-            })
+            if($scope.searchForm.$valid) {
 
+                var service = new SearchService($scope.searchQuery);
+                service.$search({},function(successResponse) {
+                        console.log(successResponse);
+                        $scope.results = successResponse.data;
+                        $scope.getHistoricalQueries();
+                    },
+                function(error) {
+                    console.log(error);
+
+                })
+
+               } else {
+                console.log("form is not valid")
+               }
 
         }
 

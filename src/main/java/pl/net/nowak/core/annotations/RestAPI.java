@@ -7,10 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.lang.annotation.*;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Maciek
- * Date: 27.07.14
- * Time: 11:34
+ * Author: Maciek
  */
 
 /**

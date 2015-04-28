@@ -28,7 +28,6 @@ public class RegexResultFilter implements ResultFilter {
         Predicate<QueryResultDTO> matchesWithRegex = new Predicate<QueryResultDTO>() {
             @Override
             public boolean apply(QueryResultDTO str) {
-                log.info(str.toString());
                 return str.getCompanyName().matches(regex);
             }
         };

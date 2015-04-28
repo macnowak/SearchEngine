@@ -20,7 +20,7 @@ import javax.inject.Inject;
 import java.util.List;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  */
 @RestAPI
 @RequestMapping("/search")

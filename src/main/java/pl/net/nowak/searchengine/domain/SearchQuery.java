@@ -1,5 +1,6 @@
 package pl.net.nowak.searchengine.domain;
 
+import com.google.common.base.Strings;
 import lombok.Getter;
 import lombok.Setter;
 import pl.net.nowak.core.db.BaseEntity;
@@ -9,7 +10,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  */
 @Entity
 @Getter
@@ -27,8 +28,8 @@ public class SearchQuery extends BaseEntity {
     public SearchQuery(){}
 
     private SearchQuery(String query, String filter) {
-        this.query = query;
-        this.filter = filter;
+        this.query = Strings.nullToEmpty(query);
+        this.filter = Strings.nullToEmpty(filter);
     }
 
 

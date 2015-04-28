@@ -6,7 +6,6 @@ import pl.net.nowak.core.db.GenericDAOImpl;
 /**
  * Author: Maciek
  */
-
 public interface SearchQueryRepository {
 
     SearchQuery save(SearchQuery entity);

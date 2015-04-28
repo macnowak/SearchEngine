@@ -7,10 +7,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Maciek
- * Date: 21.10.14
- * Time: 23:53
+ * Author: Maciek
  */
 public class BaseFinder {
 

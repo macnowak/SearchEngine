@@ -48,19 +48,25 @@
 
     <div class="row">
         <div class="col-xs-8">
-            <div class="row">
-                <div class="col-xs-6">
-                    <input class="form-control input-sm" ng-model="searchQuery.params" placeholder="Wpisz szukaną frazę" ng-pattern="[0-9a-zA-Z]+(,[0-9a-zA-Z]+)*" required >
+                <div class="row">
+                    <form name="searchForm">
+                          <div class="col-xs-6">
+                            <input class="form-control input-sm" ng-model="searchQuery.params" placeholder="Wpisz szukaną frazę" ng-required >
+                          </div>
+                          <div class="col-xs-3">
+                                <input class="form-control input-sm" ng-model="searchQuery.filter" placeholder="Wpisz filtr">
+                          </div>
+                          <div class="col-xs-2"> <button class="btn btn-sm btn-default" ng-click="search()" type="submit" > <i class="glyphicon glyphicon-search"></i> &nbsp;Szukaj </button></div>
+                    </form>
                 </div>
-                <div class="col-xs-3">
-                    <input class="form-control input-sm" ng-model="searchQuery.filter" placeholder="Wpisz filtr">
-                </div>
-                <div class="col-xs-2"> <button class="btn btn-sm btn-default" ng-click="search()" type="button" > <i class="glyphicon glyphicon-search"></i> &nbsp;Szukaj </button></div>
-            </div>
             <br>
             <div class="row">
                 <div class="col-xs-12">
                     <table class="table table-condensed table-striped ">
+                        <thead>
+                        <th>Nazwa firmy</th>
+                        <th>Opis</th>
+                        </thead>
                         <tr ng-repeat="result in results">
                             <td>{{ result.companyName }}</td>
                             <td>{{ result.companyText }}</td>

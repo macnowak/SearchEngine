@@ -1,10 +1,7 @@
 package pl.net.nowak.core.annotations;
 
 /**
- * Created with IntelliJ IDEA.
- * User: Maciek
- * Date: 21.10.14
- * Time: 23:55
+ * Author: Maciek
  */
 
 import org.springframework.stereotype.Component;

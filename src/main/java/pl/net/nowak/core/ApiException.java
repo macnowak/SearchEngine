@@ -3,7 +3,7 @@ package pl.net.nowak.core;
 import java.text.MessageFormat;
 
 /**
- * Created by mno on 2015-04-28.
+ * Author: Maciek
  */
 public class ApiException extends Exception {
 

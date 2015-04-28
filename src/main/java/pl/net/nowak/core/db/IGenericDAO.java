@@ -4,6 +4,9 @@ import java.io.Serializable;
 import java.util.List;
 
 
+/**
+ * Author: Maciek
+ */
 public interface IGenericDAO<T, ID extends Serializable> {
  
     public T save(T entity);

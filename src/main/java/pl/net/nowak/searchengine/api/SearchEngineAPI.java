@@ -13,7 +13,7 @@ import javax.inject.Inject;
 import java.util.List;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  */
 @API
 public class SearchEngineAPI {
@@ -23,15 +23,11 @@ public class SearchEngineAPI {
     @Inject ResultFilter resultFilter;
 
     public List<QueryResultDTO> performQuery(SearchQueryDTO dto) throws ApiException {
-        //store query
-        searchQueryRepository.save(SearchQuery.valueOf(dto.getParams(),dto.getFilter()));
-
-        //query
-
-        String[] searchWords = dto.getParams().split(",");
-
         try {
-            return resultFilter.filter(queryService.search(searchWords),dto.getFilter());
+            //store query
+            searchQueryRepository.save(SearchQuery.valueOf(dto.getParams(),dto.getFilter()));
+            //query
+            return resultFilter.filter(queryService.search(dto.getSearchWords()),dto.getFilter());
         } catch (InterruptedException e) {
             throw new ApiException(ApiException.API_CALL_EXCEPTION,e.getMessage());
         }

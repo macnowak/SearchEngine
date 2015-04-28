@@ -12,7 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Created by mno on 2015-04-28.
+ * Author: Maciek
  */
 @Component
 public class QueryResultFactory {

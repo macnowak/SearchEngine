@@ -11,7 +11,7 @@ import javax.inject.Inject;
 import java.util.concurrent.Callable;
 
 /**
- * Created by mno on 2015-04-27.
+ * Author: Maciek
  *
  * URL eniroApiUrl = new URL("http://api.eniro.com/cs/search/basic?profile=[profile]&key=[key]&country=se&version=1.1.3&search_word=pizza");
  */
@@ -29,7 +29,7 @@ public class EniroAPIClient implements Callable<ResponseEntity<String>> {
         log.info("Calling " + url );
         RestTemplate restTemplate = new RestTemplate();
         ResponseEntity<String> rsp = restTemplate.getForEntity(url, String.class);
-        log.info("Response : " + rsp.getStatusCode());
+        log.debug("Response : " + rsp.getStatusCode());
         return rsp;
     }
 }

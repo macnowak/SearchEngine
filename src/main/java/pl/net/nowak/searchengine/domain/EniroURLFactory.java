@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * Created by mno on 2015-04-28.
+ * Author: Maciek
  */
 @Component
 public class EniroURLFactory {

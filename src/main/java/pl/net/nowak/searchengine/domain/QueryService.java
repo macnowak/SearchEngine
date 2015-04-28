@@ -17,7 +17,7 @@ import java.util.concurrent.Executor;
 import java.util.concurrent.FutureTask;
 
 /**
- * Created by mno on 2015-04-28.
+ * Author: Maciek
  */
 @Component
 public class QueryService {
