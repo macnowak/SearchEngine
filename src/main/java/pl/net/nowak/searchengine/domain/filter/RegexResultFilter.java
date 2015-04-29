@@ -1,10 +1,11 @@
 package pl.net.nowak.searchengine.domain.filter;
 
 import com.google.common.base.Predicate;
+import com.google.common.base.Strings;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
 import org.apache.log4j.Logger;
-import org.assertj.core.util.Strings;
+
 import org.springframework.stereotype.Component;
 import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
 

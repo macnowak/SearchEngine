@@ -6,10 +6,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import pl.net.nowak.core.ApiException;
-import pl.net.nowak.core.annotations.API;
 import pl.net.nowak.searchengine.api.dto.QueryResultDTO;
 import pl.net.nowak.searchengine.domain.eniro.EniroAPIClient;
-import pl.net.nowak.searchengine.domain.eniro.EniroURLFactory;
 
 import javax.inject.Inject;
 import java.util.ArrayList;
@@ -18,6 +16,9 @@ import java.util.List;
 import java.util.concurrent.Executor;
 import java.util.concurrent.FutureTask;
 
+import static pl.net.nowak.core.ApiException.API_CALL_EXCEPTION;
+import static pl.net.nowak.core.ApiException.API_RESPONSE_PARSE_EXCEPTION;
+
 /**
  * Author: Maciek
  */
@@ -25,7 +26,7 @@ import java.util.concurrent.FutureTask;
 public class QueryService {
 
     @Inject TaskExecutor taskExecutor;
-    @Inject EniroURLFactory urlFactory;
+    @Inject URLFactory urlFactory;
     @Inject QueryResultFactory resultFactory;
     private Logger log = Logger.getLogger(this.getClass().getCanonicalName());
 
@@ -66,10 +67,10 @@ public class QueryService {
                 return resultFactory.parseJSON(response.getBody());
             } catch (Exception e) {
                 log.error(e.getMessage(), e);
-                throw new ApiException(ApiException.API_RESPONSE_PARSE_EXCEPTION, e);
+                throw new ApiException(API_RESPONSE_PARSE_EXCEPTION, e);
             }
         } else {
-            throw new ApiException(ApiException.API_CALL_EXCEPTION, String.valueOf(response.getStatusCode()), response.getBody());
+            throw new ApiException(API_CALL_EXCEPTION, String.valueOf(response.getStatusCode()), response.getBody());
         }
     }
 

@@ -2,15 +2,14 @@ package pl.net.nowak.searchengine.domain.eniro;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
-
-import java.net.URL;
+import pl.net.nowak.searchengine.domain.URLFactory;
 
 /**
  * Author: Maciek
  * Fabryka wytwarzająca url do serwisu eniro na podstawie properiesow
  */
 @Component
-public class EniroURLFactory {
+public class EniroURLFactory implements URLFactory {
 
     @Value("${api.url}") private String apiURL;
     @Value("${api.profile}") private String apiProfile;
@@ -30,6 +29,7 @@ public class EniroURLFactory {
     public EniroURLFactory() {
     }
 
+    @Override
     public String getURL(String searchWord) {
         StringBuilder builder = new StringBuilder();
         builder.append(apiURL);

@@ -22,6 +22,9 @@
         <javax.servlet-api.version>3.0.1</javax.servlet-api.version>
         <usertype.core.version>3.2.0.GA</usertype.core.version>
         <h2.version>1.4.186</h2.version>
+        <guava.version>18.0</guava.version>
+        <slf4j-api.version>1.7.7</slf4j-api.version>
+        <assertj-core.version>2.0.0</assertj-core.version>
     </properties>
 
 
@@ -114,7 +117,7 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
-            <version>18.0</version>
+            <version>${guava.version}</version>
         </dependency>
 
         <dependency>
@@ -139,7 +142,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.7</version>
+            <version>${slf4j-api.version}</version>
         </dependency>
 
         <dependency>
@@ -159,7 +162,8 @@
         <dependency>
             <groupId>org.assertj</groupId>
             <artifactId>assertj-core</artifactId>
-            <version>2.0.0</version>
+            <version>${assertj-core.version}</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
